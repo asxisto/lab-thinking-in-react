@@ -48,7 +48,7 @@ class App extends Component {
           onlyStockedProducts={this.handleStockedProducts}
         />
         <ProductTable products={this.filteredList()} />
-        {console.log(this.state.showStock)};
+        {/* {console.log(this.state.showStock)}; */}
       </div>
     );
   }

@@ -2,6 +2,10 @@ import React from 'react';
 import './PruductTable.css';
 import ProductRow from './ProductRow';
 
+function generateId() {
+  return Math.random().toString();
+}
+
 function ProductTable(props) {
   return (
     <div>
@@ -14,7 +18,7 @@ function ProductTable(props) {
         </thead>
         <tbody>
           {props.products.map((product) => (
-            <ProductRow {...product} key={product.name} />
+            <ProductRow products={product} key={generateId()} />
           ))}
         </tbody>
       </table>
