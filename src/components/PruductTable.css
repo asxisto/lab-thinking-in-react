@@ -1,0 +1,36 @@
+/* table {
+  margin: 4rem auto;
+}
+
+thead {
+  background-color: #ccc;
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+} */
+
+table {
+  margin-top: 4em;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: 0px solid #aaaaaa;
+  padding: 1em 2px;
+  border-bottom: 1px solid #e8ecef;
+}
+table tbody td {
+  font-size: 13px;
+}
+table thead {
+  background: #e8ecef;
+}
+table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
